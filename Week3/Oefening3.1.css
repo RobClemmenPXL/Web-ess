@@ -1,0 +1,33 @@
+table{
+    width: 92%;
+    margin: 0 auto 0 auto;
+    table-layout: fixed;
+}
+
+table, th, td{
+    border: black 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table tr:nth-child(odd){
+    background-color: #4f8cef;
+}
+
+table tr:nth-child(odd){
+    background-color: #6facff;
+}
+
+thead, tfoot{
+    background-color: #27526d;
+}
+
+
+
+body{
+    background-color: #c7ced8
+}
+
+.spacing{
+    width: 14.2%;
+}
